@@ -61,6 +61,7 @@ function Edit() {
                         <label htmlFor="">Level of spice</label>
                         <input type="number" placeholder='Enter level of spice' className='form-control' value={values.level}
                                onChange={handleLevelChange} />
+                        //haha
                     </div>
                     <button className='btn btn-success'>Update</button>
                 </form>
